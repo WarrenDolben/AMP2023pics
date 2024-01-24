@@ -1,0 +1,79 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Warren Dolben">
+    <meta name="description" content="My new site built with AMP. Currently, it's a photo gallery of pics from 2023.">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>My 2023 in Photos</title>
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap');
+      
+      #hello {
+        margin: 1rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      p {
+        text-align: center;
+        font-family: 'Merriweather', serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: royalblue;
+      }
+
+      amp-base-carousel {
+        max-width: 100vw;
+        max-height: 80vh;
+        margin: 2% 0 0 0;
+      }
+
+      @media (max-width: 60rem) {
+        amp-base-carousel {
+          width: 100%;
+          height: 70vh;
+          margin: 0;
+        }
+      }
+    </style>
+    <script async custom-element="amp-base-carousel" src="https://cdn.ampproject.org/v0/amp-base-carousel-0.1.js"></script>
+  </head>
+  <body>
+    <h1 id="hello">Hello and Welcome!</h1>
+    <p>Thanks for stopping by. This is my new site I've created using <a href="https://amp.dev/">AMP</a>. Enjoy some pictures from 2023.</p>
+    <amp-base-carousel loop="true"  width="1000" height="700" layout="responsive">
+      <amp-img src=".\babbling_brook.jpg" layout="responsive" alt="A stream flowing down over rocks through a mossy, wooded area."></amp-img>
+      <amp-img src=".\bean_selfie.jpg" layout="responsive" alt="The site author and his cat, Molly, an eighteen year old black girl cat."></amp-img>
+      <amp-img src=".\beanie_belly.jpg" layout="responsive" alt="A picture of my girlfriend Julia holding Molly upside down, exposing her chubby belly."></amp-img>
+      <amp-img src=".\beans_under_tree.jpg" layout="responsive" alt="Molly on the tree skirt under a Christmas tree stretching out one paw sleepily."></amp-img>
+      <amp-img src=".\beans_wrapper.jpg" layout="responsive" alt="Molly on a stack of paper looking perky."></amp-img>
+      <amp-img src=".\Big_Dub.jpg" layout="responsive" alt="The entrance gate to big dub, made up of large neon tubes and a cool sign."></amp-img>
+      <amp-img src=".\chairlift_grin.jpg" layout="responsive" alt="Julia grinning on the chairlift."></amp-img>
+      <amp-img src=".\chairlift_selfie.jpg" layout="responsive" alt="Both Julia and the author on the chairlift."></amp-img>
+      <amp-img src=".\chairlift_selfie2.jpg" layout="responsive" alt="Both of us smiling again on the chairlift with a mountain view in the background."></amp-img>
+      <amp-img src=".\chairlift_selfie3.jpg" layout="responsive" alt="One more selfie of us on the chairlift."></amp-img>
+      <amp-img src=".\labsta_roll.jpg" layout="responsive" alt="A lobster roll complete with all the fixings and some serious chipotle sauce."></amp-img>
+      <amp-img src=".\little_waterfall.jpg" layout="responsive" alt="A little waterfall in a wooded area coming down into a wider pool of water."></amp-img>
+      <amp-img src=".\mrs_beans.jpg" layout="responsive" alt="Molly looking intently, lying on our bed on our green comforter."></amp-img>
+      <amp-img src=".\mt_selfie_w_bub.jpg" layout="responsive" alt="A mountain view after a hike -- a selfie of Julia and I at a rocky lookout."></amp-img>
+      <amp-img src=".\mt_view.jpg" layout="responsive" alt="The mountain view -- four or five pointy, bluish peaks a little ways off."></amp-img>
+      <amp-img src=".\mt_view2.jpg" layout="responsive" alt="Another shot of the same view -- cloudy skies, lush green vegetation"></amp-img>
+      <amp-img src=".\sunset_mt_view.jpg" layout="responsive" alt="In the parking lot after the chairlift up Snow's MT for a beautiful sunset."></amp-img>
+      <amp-img src=".\sunset_mt_view2.jpg" layout="responsive" alt="Near the center of the village looking at the mountains for the sunset."></amp-img>
+      <amp-img src=".\teepad_view.jpg" layout="responsive" alt="One of the disc golf teepads we played off of coming down Snow's MT, and a disc basket in sight."></amp-img>
+      <amp-img src=".\tooth_pull.jpg" layout="responsive" alt="Me with a wrap around the head icepack on my face after getting a tooth pulled last year."></amp-img>
+      <amp-img src=".\triumphant_hiker.jpg" layout="responsive" alt="Julia at the lookout point of our hike, arms raised triumphantly, peace-sign thrown."></amp-img>
+      <amp-img src=".\woods_shelter.jpg" layout="responsive" alt="A structure in a wooded area at The Nob in Massachusetts. The structure is constructed entirely of wooden branches and built around a couple trees."></amp-img>
+    </amp-base-carousel>
+    <p>If the arrows disappear you can swipe left or right.</p>
+  </body>
+</html>
